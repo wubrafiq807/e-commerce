@@ -51,7 +51,13 @@ yarn start
 
 Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-Login Page:
+Login Page: 
+- Default email , and password are
+```
+Email: mailtest@example.com
+Password:test0001
+```
+You can create new use with API .
 
 ![login-page](login-page.png)
 
