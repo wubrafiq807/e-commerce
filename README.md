@@ -87,3 +87,75 @@ Order Service Endpoints (protected route):
 - GET /orders: List all orders with associated product details.
 - GET /orders/:id: Fetch a specific order with product details.
 
+## Stracture 
+
+```
+└── 📁e-commerce
+    └── 📁frontend
+        └── .env
+        └── package-lock.json
+        └── package.json
+        └── 📁public
+        └── 📁src
+            └── App.css
+            └── App.tsx
+            └── 📁common
+            └── 📁components
+            └── 📁services
+            └── setupTests.ts
+            └── 📁types
+        └── tsconfig.json
+    └── 📁order-service
+        └── .env
+        └── Dockerfile
+        └── package-lock.json
+        └── package.json
+        └── server.ts
+        └── 📁src
+            └── 📁controllers
+            └── 📁middleware
+            └── 📁models
+            └── 📁routes
+            └── 📁seeders
+            └── 📁services
+            └── 📁types
+            └── 📁utility
+        └── tsconfig.json
+    └── 📁product-service
+        └── .env
+        └── Dockerfile
+        └── package-lock.json
+        └── package.json
+        └── server.ts
+        └── 📁src
+            └── 📁controllers
+            └── 📁middleware
+            └── 📁models
+            └── 📁routes
+            └── 📁seeders
+            └── 📁types
+            └── 📁utility
+        └── tsconfig.json
+    └── 📁user-service
+        └── .env
+        └── Dockerfile
+        └── package-lock.json
+        └── package.json
+        └── server.ts
+        └── 📁src
+            └── 📁controllers
+            └── 📁middleware
+            └── 📁models
+            └── 📁routes
+            └── 📁seeders
+            └── 📁types
+        └── tsconfig.json
+    └── .gitignore
+    └── docker-compose.yml
+    └── e-commerce.postman_collection.json
+    └── login-page.png
+    └── order-page.png
+    └── post-man.png
+    └── README.md
+```
+
